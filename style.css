@@ -1,0 +1,94 @@
+@font-face { 
+    font-family: "Bebas"; 
+    src: url("BebasNeue.otf"); 
+}
+
+span {
+    font-family: Bebas; 
+    font-size: 1.8em; 
+}
+
+
+#header {
+    background-color: black; 
+    position: relative; 
+    height: 350px; 
+  
+    text-align: center;
+    color: white; 
+    text-size: 2.1em; 
+}
+
+
+#crest {
+    position: absolute; 
+    top: 3%; 
+    left: 7%; 
+    z-index: 99; 
+    width: 14%;
+    transition: opacity 1s; 
+}
+
+
+#crest:hover {
+    position: absolute; 
+    top: 3%; 
+    left: 7%; 
+    z-index: 99; 
+    width: 14%;
+    opacity: 0.8; 
+}
+
+#WEAREPGN {
+    font-family: Bebas; 
+    position: relative; 
+    font-size: 6.5em;
+}
+
+#WEAREPGN2 {
+    position: absolute; 
+    left:0; 
+    right: 0; 
+    top: 150px; ; 
+    font-size: 1.8em;
+    opacity: 0.8; 
+}
+
+
+
+
+#navbar {
+    position: absolute; 
+    width: 100%; 
+    margin-top: 6%;
+    text-align: center; 
+   
+}
+
+
+#navbar li {
+    font-family: Bebas; 
+    display: inline-block; 
+    font-size: 1.475em; 
+    margin-top: 1%; 
+     opacity: 0.8; 
+    margin-right: 5%;
+    tansition: color 0.5s; 
+    -webkit-transition: color 0.5s; 
+}
+
+
+#navbar li:hover {
+    font-family: Bebas; 
+    display: inline-block; 
+    font-size: 1.475em; 
+    margin-top: 1%; 
+    margin-right: 5%;
+    color: #daa520; 
+    
+}
+
+
+
+
+/*actual content stuff per page*/

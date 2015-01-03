@@ -92,3 +92,12 @@ span {
 
 
 /*actual content stuff per page*/
+
+
+/*meet the bros*/
+.brodiv { 
+    display: inline-block;
+    margin-bottom: 5%; 
+
+    text-align: center;
+}

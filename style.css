@@ -204,13 +204,15 @@ a.darken:hover img {
     
 }
 
-#Bros a {
+a {
     text-decoration: none;
+    transition: color 0.3s; 
     
 }
 
-#Bros a:hover {
+ a:hover {
     text-decoration: none;
+     color: #daa520; 
     
 }
 

@@ -1,0 +1,263 @@
+<html><head>
+
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title> Phi Gamma Nu at the University of Pennsylvania </title>
+    
+    
+    
+    <!-- InstanceEndEditable -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+     
+    <!--bootstrap things--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"-->
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="jquery.min.js"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+    
+   <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script-->
+  
+    </head>	
+
+<style type="text/css">
+	* {
+		padding:0;
+		margin:0;
+	}
+	html, body {
+		height:100%;
+	}
+	.skrollr-desktop body {
+		height:100% !important;
+	}
+	body {
+		font-family:sans-serif;
+	}
+	p {
+		margin:1em 0;
+	}
+	.parallax-image-wrapper {
+		position:fixed;
+		left:0;
+		width:100%;
+		overflow:hidden;
+	}
+	.parallax-image-wrapper-50 {
+		height:50%;
+		top:-50%;
+	}
+	.parallax-image-wrapper-100 {
+		height:100%;
+		top:-100%;
+	}
+	.parallax-image {
+		display:none;
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+	}
+	.parallax-image-50 {
+		height:200%;
+		top:-50%;
+	}
+	.parallax-image-100 {
+		height:100%;
+		top:0;
+	}
+	.parallax-image.skrollable-between {
+		display:block;
+	}
+	.no-skrollr .parallax-image-wrapper {
+		display:none !important;
+	}
+	#skrollr-body {
+		height:100%;
+		overflow:visible;
+		position:relative;
+	}
+	.gap {
+		background:transparent center no-repeat;
+		background-size:cover;
+	}
+	.skrollr .gap {
+		background:transparent !important;
+	}
+	.gap-50 {
+		height:50%;
+	}
+	.gap-100 {
+		height:100%;
+	}
+	.header, .content {
+		background:#fff;
+		padding:0;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	.content-full {
+		height:100%;
+	}
+	#done {
+		height:100%;
+	}
+	</style>
+</head>
+
+<body>
+	<!--
+		We position the images fixed and therefore need to place them outside of #skrollr-body.
+		We will then use data-anchor-target to display the correct image matching the current section (.gap element).
+	-->
+
+
+    <div
+		class="parallax-image-wrapper parallax-image-wrapper-100"
+		data-anchor-target="#dragons + .gap"
+		data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)"
+       
+       >
+        
+		<div
+			class="parallax-image parallax-image-100"
+			style="background-image:url(allbros1.jpg)"
+			data-anchor-target="#dragons + .gap"
+			data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+            style="margin-top:10px;"
+              
+		></div>
+		<!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+	</div>
+
+	<div
+		class="parallax-image-wrapper parallax-image-wrapper-100"
+		data-anchor-target="#bacons + .gap"
+		data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+		<div
+			class="parallax-image parallax-image-100"
+			style="background-image:url(nibs.jpg)"
+			data-anchor-target="#bacons + .gap"
+			data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+		></div>
+	</div>
+
+	<div
+		class="parallax-image-wrapper parallax-image-wrapper-50"
+		data-anchor-target="#kittens + .gap"
+		data-bottom-top="transform:translate3d(0px, 300%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+		<div
+			class="parallax-image parallax-image-50"
+			style="background-image:url(allbros4.jpg)"
+			data-anchor-target="#kittens + .gap"
+			data-bottom-top="transform: translate3d(0px, -60%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 60%, 0px);"
+		></div>
+	</div>
+
+	<div id="skrollr-body">
+		<div class="header" id="dragons">
+			<div id= "header" class="jumbotron">
+    
+    <div id="WEAREPGN"> Phi Gamma Nu </div>
+    <div id= "WEAREPGN2"> Professional Business Fraternity</br> Delta Lambda Chapter at the University of Pennsylvania</div>
+    <a href="index.html"> <img id="crest" src="letterhead2.png"/></a>
+        
+        <div id="navbar" class="navbar navbar-default">
+        <ul>
+            <a href = "about.html"><li> About</li></a>
+            <a href = "events.html"><li> Events </li></a>
+            <a href = "bros.html"><li> Brothers </li></a>
+            <a href = "rush2015s.html"><li> Rush </li></a>
+            <a href = "contact.html"><li>Contact</li></a>
+        </ul>
+    
+    </div>    
+    
+ 
+    </div>
+    
+
+		</div>
+		<div class="gap gap-100" style="background-image:url(images/kitteh1.jpg);"></div>
+		<div class="content" id="bacons">
+            <div class="container">
+                 <div class="row">
+            
+            <div class="col-sm-6">
+Letter From the President
+                
+                <span> Dear </br>
+                Visitor,</span></br>
+    
+</br>
+On behalf of the Delta Lambda Chapter of Phi Gamma Nu Professional Business Fraternity, I would like to welcome you to our website. We are proud to be the most prestigious co-ed professional business fraternity at the University of Pennsylvania. With every undergraduate school and dual degree program represented among our members, we strive for the utmost academic and professional excellence. Our diverse brotherhood has members from around the globe and around the country, who all share a common interest in business and professional success.
+</br></br>
+Our goal is to foster the study of business, while engaging in community outreach and developing strong bonds of brotherhood and friendship. As one of the most active organizations at Penn, we are dedicated to pursuing excellence in all areas of business, brotherhood, and philanthropy. I invite you to explore our website in order to really understand what makes Phi Gamma Nu such a unique community and how it can open up a world of opportunities and benefit you at Penn and beyond. 
+</br></br>
+Sincerely,
+</br></br>
+Bohan Wei</br>
+President, Phi Gamma Nu
+
+</div> 
+
+
+
+
+
+</div>
+			</div>
+		</div>
+		<div class="gap gap-100" style="background-image:url(images/kitteh2.jpg);"></div>
+		<div class="content content-full" id="kittens">
+            
+            
+            Brother Testimonials
+			<span> ANTHONY MASSARO</span>
+Class of 2009 </br>
+Goldman Sachs 
+
+<p>"Looking back on my four years at Penn, I can confidently say that my experience in Phi Gamma Nu was instrumental to my success in college. I have received invaluable professional advice and guidance from older brothers and alumni, served in a diverse array of leadership positions, and implemented several new ideas and initiatives. The memories from all of the formals, ski trips, and nights out in Philly and New York are unforgettable. I leave Penn with a truly global network of lifelong friends from Phi Gamma Nu that stretches from California to Switzerland to Uzbekistan."</p>
+ <span>MICHAEL GIULIANO</span>
+Class of 2010 </br>
+
+<p>"As an alum, I immediately realized the benefit of being a PGN Brother. Having learned an extensive set of professional skills through pledging and having enjoyed many social events with Brothers, my experience and success as a young consultant was set on the fast track. I also have access to an amazing set of mentors whether it's my entrepreneur pledge master or my globe-trekking pledge Brother, I am never without guidance, advice, and laughs as I build my career. Now whether I am assisting current Brothers with interviews, speaking with other PGN alumni in the office, or grabbing dinner with Brothers in virtually any city around the world, my connection to PGN have not diminished since graduation."</p>
+
+		</div>
+
+
+
+
+		<div class="gap gap-50" style="background-image:url(images/kitteh3.jpg);"></div>
+		<div class="content" id="done">
+           
+
+</div>
+
+
+
+	</div>
+
+	<script type="text/javascript" src="skrollr.min.js"></script>
+	<script type="text/javascript">
+	skrollr.init({
+		smoothScrolling: false,
+		mobileDeceleration: 0.004
+	});
+	</script>
